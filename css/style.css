@@ -2372,20 +2372,20 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #212529;
-  background-color: #B49C73;
-  border-color: #B49C73;
+  background-color: #cfb587;
+  border-color: #cfb587;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #a78a5a;
-  border-color: #9f8455;
+  background-color: #cfb587;
+  border-color: #cfb587;
 }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #a78a5a;
-  border-color: #9f8455;
+  background-color: #cfb587;
+  border-color: #cfb587;
   box-shadow: 0 0 0 0.2rem rgba(158, 138, 104, 0.5);
 }
 
@@ -6356,13 +6356,13 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #B49C73 !important;
+  background-color: #cfb587 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #9f8455 !important;
+  background-color: #cfb587 !important;
 }
 
 .bg-secondary {
@@ -7828,6 +7828,11 @@ button.bg-dark:focus {
   padding-top: 1.5rem !important;
 }
 
+.pt-4,
+.py-4 {
+  padding-top: 1.5rem !important;
+}
+
 .pr-4,
 .px-4 {
   padding-right: 1.5rem !important;
@@ -7849,7 +7854,7 @@ button.bg-dark:focus {
 
 .pt-5,
 .py-5 {
-  padding-top: 3rem !important;
+  padding-top: 1.5rem !important;
 }
 
 .pr-5,
@@ -9534,11 +9539,11 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bfab8a !important;
+  color: #cfb587 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #8e764c !important;
+  color: #cfb587 !important;
 }
 
 .text-secondary {
