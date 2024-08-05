@@ -71,7 +71,7 @@
     });
 
 
-    // Team carousel
+    // Team carousel para aumentar o numero de repetições no carrocel
     $(".team-carousel").owlCarousel({
         autoplay: true,
         smartSpeed: 1500,
@@ -89,13 +89,14 @@
             },
             576:{
                 items:2
-            },
-            768:{
-                items:3
-            },
-            992:{
-                items:4
             }
+            // ,
+            // 768:{
+            //     items:3
+            // },
+            // 992:{
+            //     items:4
+            // }
         }
     });
 

@@ -28,6 +28,12 @@
      
      <!-- Customized Bootstrap Stylesheet -->
      <link href="css/style.css" rel="stylesheet">
+
+    <!-- Email JS CDN -->
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+     <script type="text/javascript">
+         emailjs.init('jKWlpL9eK8XXpc0hE'); // Substitua 'SEU_USER_ID' pelo seu User ID do EmailJS
+     </script>
  </head>
  
  <body>
@@ -82,8 +88,8 @@
                      <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                          <div class="navbar-nav mr-auto py-0">
                              <a href="index.html" class="nav-item nav-link ">Home</a>
-                             <a href="about.html" class="nav-item nav-link">Sore Nós</a>
                              <a href="service.html" class="nav-item nav-link">Praticas</a>
+                             <a href="about.html" class="nav-item nav-link">Sore Nós</a>
                              <a href="contact.html" class="nav-item nav-link active">Contato</a>
                          </div>
                  
@@ -99,6 +105,7 @@
     <div class="container-fluid bg-page-header" style="margin-bottom: 90px;">
         <div class="container">
             <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
+                <h4 class="text-white text-uppercase mb-4" style="letter-spacing: 3px;">Agência Jurídica</h4>
                 <h3 class="display-3 text-white text-uppercase">Contato</h3>
       
             </div>
@@ -117,28 +124,27 @@
             <div class="row">
                 <div class="col-lg-6 mb-5 mb-lg-0">
                     <div class="contact-form">
-                        <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="form-row">
-                                <div class="col-sm-6 control-group">
-                                    <input type="text" class="form-control p-4" id="name" placeholder="Seu Nome" required="required" data-validation-required-message="Please enter your name" />
+                        
+                        <form name="sentMessage" id="form" novalidate="novalidate">
+                                <div class="control-group">
+                                    <input type="text" class="form-control p-4" name="from_name" id="from_name" placeholder="Seu Nome" required data-validation-required-message="Insira seu nome" />
                                     <p class="help-block text-danger"></p>
                                 </div>
-                                <div class="col-sm-6 control-group">
-                                    <input type="email" class="form-control p-4" id="email" placeholder="Seu Email" required="required" data-validation-required-message="Please enter your email" />
+                                <div class="control-group">
+                                    <input type="email" class="form-control p-4" name="reply_to" id="reply_to" placeholder="Seu Email" required data-validation-required-message="Insira seu email" />
                                     <p class="help-block text-danger"></p>
                                 </div>
-                            </div>
-                            <div class="control-group">
-                                <input type="text" class="form-control p-4" id="subject" placeholder="Assunto" required="required" data-validation-required-message="Please enter a subject" />
+                            <div class="control-group ">
+                                <input type="text" name="place" class="form-control p-4" id="place" required placeholder="Sua cidade / Estado" data-validation-required-message="Insira seu email">
                                 <p class="help-block text-danger"></p>
+                                </input>
                             </div>
                             <div class="control-group">
-                                <textarea class="form-control p-4" rows="6" id="message" placeholder="Mensagem" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                <textarea class="form-control p-4" rows="10" name="message" id="message"  placeholder="Mensagem" required data-validation-required-message="Insira sua mensagem"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div>
-                                <button class="btn btn-primary btn-block" type="submit" id="sendMessageButton">Enviar Mensagem</button>
+                                <button class="btn btn-primary btn-block" type="submit" id="button">Enviar Mensagem</button>
                             </div>
                         </form>
                     </div>
@@ -220,6 +226,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="mail/script.js"></script>
 </body>
 
 </html>
