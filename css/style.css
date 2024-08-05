@@ -43,7 +43,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -59,7 +59,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #757575;
+  color: #1d1c1c;
   text-align: left;
   background-color: #fff;
 }
@@ -152,7 +152,7 @@ sup {
 }
 
 a {
-  color: #B49C73;
+  color: #cfb587;
   text-decoration: none;
   background-color: transparent;
 }
@@ -6366,7 +6366,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #37373F !important;
+  background-color: #ebebed !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -8196,7 +8196,7 @@ button.bg-dark:focus {
   }
   .pb-sm-3,
   .py-sm-3 {
-    padding-bottom: 1rem !important;
+    padding-bottom: .5rem !important;
   }
   .pl-sm-3,
   .px-sm-3 {
@@ -9525,8 +9525,16 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
+.text-white1 {
+  color: #2d2828 !important;
+}
+
+.text-white2 {
+  color: #6d5f5f !important;
+}
+
 .text-primary {
-  color: #B49C73 !important;
+  color: #bfab8a !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9574,7 +9582,7 @@ a.text-danger:hover, a.text-danger:focus {
 }
 
 .text-light {
-  color: #f8f9fa !important;
+  color: #3a3e43 !important;
 }
 
 a.text-light:hover, a.text-light:focus {
