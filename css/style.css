@@ -7849,7 +7849,7 @@ button.bg-dark:focus {
 }
 
 .p-5 {
-  padding: 3rem !important;
+  padding: 1rem !important;
 }
 
 .pt-5,
@@ -7859,12 +7859,12 @@ button.bg-dark:focus {
 
 .pr-5,
 .px-5 {
-  padding-right: 3rem !important;
+  padding-right: rem !important;
 }
 
 .pb-5,
 .py-5 {
-  padding-bottom: 3rem !important;
+  padding-bottom: 1rem !important;
 }
 
 .pl-5,
