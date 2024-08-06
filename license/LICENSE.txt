@@ -1,35 +1,33 @@
- 
+=> LICENÇA GRATUITA DE MODELO HTML POR HTML Codex
 
- => FREE HTML TEMPLATE LICENSE BY HTML Codex
+ Todos os modelos HTML gratuitos da HTML Codex são licenciados sob uma Licença Internacional Creative Commons Atribuição 4.0, o que significa que você não tem permissão para remover o link de crédito/link de atribuição/backlink do autor.
 
- All free HTML templates by HTML Codex are licensed under a Creative Commons Attribution 4.0 International License which means you are not allowed to remove the author�s credit link/attribution link/backlink.
-
- When you download or use our free HTML templates, it will attribute the following conditions.
+ Ao baixar ou usar nossos modelos HTML gratuitos, serão atribuídas as seguintes condições.
 
 
- => YOU ARE ALLOWED
+ => VOCÊ ESTÁ PERMITIDO
 
-      1. You are allowed to use for your personal and commercial purposes.
+      1. Você está autorizado a usar para fins pessoais e comerciais.
 
-      2. You are allowed to modify/customize however you like.
+      2. Você tem permissão para modificar/personalizar como quiser.
 
-      3. You are allowed to convert/port for use for any CMS.
+      3. Você tem permissão para converter/portar para uso em qualquer CMS.
 
-      4. You are allowed to share/distribute under the HTML Codex brand name.
+      4. Você tem permissão para compartilhar/distribuir sob a marca HTML Codex.
 
-      5. You are allowed to put a screenshot or a link on your blog posts or any other websites.
+      5. Você tem permissão para colocar uma captura de tela ou um link nas postagens do seu blog ou em qualquer outro site.
 
 
- => YOU ARE NOT ALLOWED
+ => VOCÊ NÃO É PERMITIDO
 
-      1. You are not allowed to remove the author�s credit link/attribution link/backlink without purchasing Credit Removal License ( https://htmlcodex.com/credit-removal ).
+      1. Você não tem permissão para remover o link de crédito/link de atribuição/backlink do autor sem adquirir a Licença de Remoção de Crédito (https://htmlcodex.com/credit-removal).
 
-      2. You are not allowed to sell, resale, rent, lease, license, or sub-license.
+      2. Você não tem permissão para vender, revenda, alugar, arrendar, licenciar ou sublicenciar.
 
-      3. You are not allowed to upload on your template websites or template collection websites or any other third party websites without our permission.
+      3. Você não tem permissão para fazer upload em seus sites de modelos ou sites de coleção de modelos ou em qualquer outro site de terceiros sem nossa permissão.
 
- This license can be terminated if you breach any of these conditions.
+ Esta licença pode ser rescindida se você violar alguma dessas condições.
 
- Please contact us (https://htmlcodex.com/contact) if you have any query.
+ Entre em contato conosco (https://htmlcodex.com/contact) se tiver alguma dúvida.
 
- => PURCHASE CREDIT REMOVAL LICENSE ( https://htmlcodex.com/credit-removal )
+ => COMPRAR LICENÇA DE REMOÇÃO DE CRÉDITO (https://htmlcodex.com/credit-removal)
